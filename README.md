@@ -47,10 +47,9 @@ In short, this method uses cheap gpt queries to generate summaries from movie ti
 
     Run the provided Python scripts to generate the datasets and train the model.
 
-    ```bash
-    python get_dfs.py
-    python recommendation_dl.py
-    ```
+    '''bash
+    python3 recommendation_dl.py --rating_df_path <path/to/ratings_df> --user_df_path <path/to/user_df> --item_df_path <path/to/item_df> --OPENAI_API_KEY <your_openai_api_key>
+    '''
 
     Make sure to customize the scripts as per your dataset paths and requirements.
 
