@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-This project implements a movie recommendation system using various machine learning and deep learning libraries including PyTorch, TensorFlow, and Sentence Transformers. The system generates embeddings for user history and movie titles and utilizes these embeddings to predict movie ratings using the public 100k movies dataset. Available at: https://grouplens.org/datasets/movielens/100k/
+This macos project implements a movie recommendation system using various machine learning and deep learning libraries including PyTorch, TensorFlow, and Sentence Transformers (note just change device from 'mps' to 'cuda' if you are using Windows/Linux). The system generates embeddings for user history and movie titles and utilizes these embeddings to predict movie ratings using the public 100k movies dataset. Available at: https://grouplens.org/datasets/movielens/100k/
 
 ## Table of Contents
 
