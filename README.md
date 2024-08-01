@@ -43,24 +43,7 @@ In short, this method uses cheap gpt queries to generate summaries from movie ti
     pip install -r requirements.txt
     ```
 
-    If `requirements.txt` is not provided, install the dependencies manually:
-
-    ```bash
-    pip install pandas numpy torch sentence-transformers tensorflow tensorflow-hub tqdm
-    pip install openai transformers
-    ```
-
-## Usage
-
-1. **Set up your OpenAI API key:**
-
-    Ensure you have an OpenAI API key and set it as an environment variable:
-
-    ```bash
-    export OPENAI_API_KEY='your-api-key'  # On Windows use `set OPENAI_API_KEY=your-api-key`
-    ```
-
-2. **Run the main script:**
+**Run the main script:**
 
     Run the provided Python scripts to generate the datasets and train the model.
 
@@ -75,6 +58,7 @@ In short, this method uses cheap gpt queries to generate summaries from movie ti
 
 - **get_dfs.py:** This script processes the raw datasets and prepares the necessary DataFrames for the recommendation system.
 - **recommendation_dl.py:** The main script that contains the classes and functions for generating embeddings, preparing data loaders, and training the recommendation model.
+- **data_generation.py:** This script creates the dataset and the dataloaders using gpt to create the text summaries that are used to generate embeddings.
 
 ## Dependencies
 
@@ -92,3 +76,6 @@ Install these dependencies using the command:
 
 ```bash
 pip install pandas numpy torch sentence-transformers tensorflow tensorflow-hub tqdm openai transformers
+
+'''Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
