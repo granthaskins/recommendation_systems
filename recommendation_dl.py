@@ -14,6 +14,9 @@ from data_generation import DataGeneration, MovieLensDataset, collate_fn
 
 import sys
 import threading
+# Importing 'sys' and 'threading' libraries for potential use in parallelization and system-specific parameters.
+# These libraries are not currently used in the script, but are available for future contributors who may
+# wish to implement parallelization or other system-related functionalities.
 
 class NCF(nn.Module):
     def __init__(self, embedding_dim, embedding_size=200):
